@@ -1,42 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 
-    <link rel="stylesheet" href="(% static 'css/blog.css' %)" media="screen" title="no title" charset="utf-8">
-    <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext">
-    <title>This Is Simple</title>
+  <head>
+    <title>Django Girls blog</title>
   </head>
+
   <body>
 
-  <div class="page-header">
-    <h1><a href="/">This Is Simple</a></h1>
-  </div>
+    <div>
+      <h1><a href="">Django Girls Blog</a></h1>
+    </div>
 
-{% for post in posts %}
-  <div class="post">
-    <p>published: {{ post.published_data}}</p>
-    <h1><a href="#">{{ post.title }}</a></h1>
-    <p>{{ post.text|linebreaks }}</p>
-  </div>
-{% endfor %}
+    <div>
+      <p>published: 14.06.2014, 12:14</p>
+      <h2><a href="">My first post</a></h2>
+      <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec
+    </div>
 
-<div class="content container">
-<div class="row">
-<div class="col-md-8">
-{% for post in posts %}
-<div class="post">
-<div class="date">
-{{ post.published_date }}
-</div>
-<h1><a href="">{{ post.title }}</a></h1>
-<p>{{ post.text|linebreaks }}</p>
-</div>
-{% endfor %}
-</div>
-</div>
-</div>
+    <div>
+      <p>published: 14.06.2014, 12:14</p>
+      <h2><a href="">My second post</a></h2>
+      <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec
+    </div>
+
   </body>
 </html>
