@@ -1,7 +1,8 @@
 repo_name: ThisIsSimple/Django
 report_id: b9f6a2114414b593cc28be94c831576f
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-30T18:26:38+00:00'
+timestamp: '2024-01-05T08:29:39+00:00'
 requested_by: ThisIsSimple
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ThisIsSimple/Django
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ThisIsSimple/Django
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ThisIsSimple/Django
   detection_source: Repo Metadata
 - name: HTML
   description: Hypertext Markup Language for creating web pages.
@@ -41,6 +45,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/ThisIsSimple/Django/blob/master/blog/templates/blog/post_list.html
   detection_source: blog/templates/blog/post_list.html
   last_updated_by: cordelia273
   last_updated_on: 2016-07-16 18:34:03.000000000 Z
